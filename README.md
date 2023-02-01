@@ -10,6 +10,10 @@ Admin credentials-
 username: adminleonard or email: adminleonard@gmail.com  
 password: 12345678
 
+User cerdentials    
+username: userleonard or email: userleonard@gmail.com  
+password: 12345678
+
 -The guest users can sign up and after that be redirected to the user dashboard. 
 
 -The Layouts are created using Bootstrap . 
@@ -21,6 +25,6 @@ password: 12345678
  redirecting them based on their roles to the user-dashboard or admin-dashboard .
     
 
--Admin/UserController manage the CRUD operations for users. It handles also the registration of new users as well as their validation .  
+-Admin/UserController manage the CRUD operations for users. It handles also the registration roles of new users as well as their validation .  
 
 -Admin/CategoryController handles the category page and can  be accessed only by authenticated users .       
